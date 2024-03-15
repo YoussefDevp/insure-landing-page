@@ -1,0 +1,21 @@
+.Plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: $Dark-Violet;
+    max-height: 500px;
+    .left-div {
+        max-width: 50%;
+        color: $Very-Light-Gray;
+    }
+    .right-div {
+        // width: 50%;
+        img {
+            position: relative;
+            height: 500px;
+            bottom: -80px;
+
+        }
+    }
+}
+

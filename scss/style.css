@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+header {
+  padding: 1.8rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .links ul {
+  display: flex;
+  list-style: none;
+}
+header .links ul li:not(:first-of-type) {
+  margin-left: 1rem;
+}
+header .links ul a {
+  text-decoration: none;
+  font-size: 110%;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: hsl(273, 4%, 51%);
+}
+
+.Plans {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: hsl(256, 26%, 20%);
+  max-height: 500px;
+}
+.Plans .left-div {
+  max-width: 50%;
+  color: hsl(0, 0%, 98%);
+}
+.Plans .right-div img {
+  position: relative;
+  height: 500px;
+  bottom: -80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading-font {
+  font-family: "DM Serif Display", serif;
+  font-size: 480%;
+  font-weight: lighter;
+}
+
+.p-container {
+  padding: 0rem 4rem;
+}
+
+.wihte {
+  background: white;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}/*# sourceMappingURL=style.css.map */
